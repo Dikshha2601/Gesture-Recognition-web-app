@@ -3,7 +3,7 @@ var noseY = 0;
 var difference = 0;
 var leftWristX = 0;
 var rightWristX = 0;
-var text = 0;
+var sampleText = 0;
 
 function preload() { }
 
@@ -39,8 +39,8 @@ function setup() {
 function draw() {
    
     background("#3E8C47");
-    text = document.getElementById("text").value;
+    sampleText = document.getElementById("text").value;
     textSize(difference);
     fill(0, 102, 153);
-    text("hi!!", noseX, noseY);
+    text(sampleText, noseX, noseY);
 }

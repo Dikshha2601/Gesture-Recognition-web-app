@@ -43,5 +43,5 @@ function draw() {
     textSize(difference);
     fill(0, 102, 153);
     text(sampleText, noseX, noseY);
-    document.getElementById("font-size").innerHTML="Font size is "+difference;
+    document.getElementById("font-size").innerHTML = "Size of the font will be " + difference;
 }
